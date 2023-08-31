@@ -1,0 +1,817 @@
+(base) PS C:\Users\Emelie Chandni> conda create --name py36 python=3.6
+
+
+
+
+
+WARNING: A space was detected in your requested environment path
+'C:\Users\Emelie Chandni\anaconda3\envs\py36'
+Spaces in paths can sometimes be problematic.
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - python=3.6
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2020.12.5          |   py36haa95532_0         140 KB
+    pip-21.0.1                 |   py36haa95532_0         1.8 MB
+    python-3.6.13              |       h3758d61_0        14.6 MB
+    setuptools-58.0.4          |   py36haa95532_0         776 KB
+    wincertstore-0.2           |   py36h7fe50ca_0          14 KB
+    ------------------------------------------------------------
+                                           Total:        17.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  certifi            pkgs/main/win-64::certifi-2020.12.5-py36haa95532_0
+  pip                pkgs/main/win-64::pip-21.0.1-py36haa95532_0
+  python             pkgs/main/win-64::python-3.6.13-h3758d61_0
+  setuptools         pkgs/main/win-64::setuptools-58.0.4-py36haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.36.0-h2bbff1b_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wheel              pkgs/main/noarch::wheel-0.37.0-pyhd3eb1b0_1
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py36h7fe50ca_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-58.0.4    | 776 KB    | ########################################################################################################################################################################################## | 100%
+certifi-2020.12.5    | 140 KB    | ########################################################################################################################################################################################## | 100%
+pip-21.0.1           | 1.8 MB    | ########################################################################################################################################################################################## | 100%
+python-3.6.13        | 14.6 MB   | ########################################################################################################################################################################################## | 100%
+wincertstore-0.2     | 14 KB     | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate py36
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+
+
+
+(base) PS C:\Users\Emelie Chandni> conda activate py36
+(py36) PS C:\Users\Emelie Chandni> conda install pandas
+
+
+
+
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - pandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2021.5.30          |   py36haa95532_0         140 KB
+    mkl-2020.2                 |              256       109.3 MB
+    mkl-service-2.3.0          |   py36h196d8e1_0          45 KB
+    mkl_fft-1.3.0              |   py36h46781fe_0         131 KB
+    mkl_random-1.1.1           |   py36h47e9c7a_0         235 KB
+    numpy-1.19.2               |   py36hadc3359_0          22 KB
+    numpy-base-1.19.2          |   py36ha3acd2a_0         3.8 MB
+    pandas-1.1.5               |   py36hd77b12b_0         7.3 MB
+    ------------------------------------------------------------
+                                           Total:       121.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/win-64::blas-1.0-mkl
+  intel-openmp       pkgs/main/win-64::intel-openmp-2021.3.0-haa95532_3372
+  mkl                pkgs/main/win-64::mkl-2020.2-256
+  mkl-service        pkgs/main/win-64::mkl-service-2.3.0-py36h196d8e1_0
+  mkl_fft            pkgs/main/win-64::mkl_fft-1.3.0-py36h46781fe_0
+  mkl_random         pkgs/main/win-64::mkl_random-1.1.1-py36h47e9c7a_0
+  numpy              pkgs/main/win-64::numpy-1.19.2-py36hadc3359_0
+  numpy-base         pkgs/main/win-64::numpy-base-1.19.2-py36ha3acd2a_0
+  pandas             pkgs/main/win-64::pandas-1.1.5-py36hd77b12b_0
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0
+  pytz               pkgs/main/noarch::pytz-2021.3-pyhd3eb1b0_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_0
+
+The following packages will be UPDATED:
+
+  certifi                          2020.12.5-py36haa95532_0 --> 2021.5.30-py36haa95532_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+mkl-2020.2           | 109.3 MB  | ########################################################################################################################################################################################## | 100%
+mkl_fft-1.3.0        | 131 KB    | ########################################################################################################################################################################################## | 100%
+mkl_random-1.1.1     | 235 KB    | ########################################################################################################################################################################################## | 100%
+numpy-1.19.2         | 22 KB     | ########################################################################################################################################################################################## | 100%
+mkl-service-2.3.0    | 45 KB     | ########################################################################################################################################################################################## | 100%
+certifi-2021.5.30    | 140 KB    | ########################################################################################################################################################################################## | 100%
+numpy-base-1.19.2    | 3.8 MB    | ########################################################################################################################################################################################## | 100%
+pandas-1.1.5         | 7.3 MB    | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+
+
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install scipy
+
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    scipy-1.5.2                |   py36h9439919_0        11.9 MB
+    ------------------------------------------------------------
+                                           Total:        11.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  icc_rt             pkgs/main/win-64::icc_rt-2019.0.0-h0cc432a_1
+  scipy              pkgs/main/win-64::scipy-1.5.2-py36h9439919_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+scipy-1.5.2          | 11.9 MB   | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install tensorflow
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _tflow_select-2.2.0        |            eigen           3 KB
+    absl-py-0.13.0             |   py36haa95532_0         176 KB
+    aiohttp-3.7.4.post0        |   py36h2bbff1b_2         516 KB
+    astor-0.8.1                |   py36haa95532_0          47 KB
+    async-timeout-3.0.1        |   py36haa95532_0          14 KB
+    blinker-1.4                |   py36haa95532_0          23 KB
+    brotlipy-0.7.0             |py36h2bbff1b_1003         337 KB
+    cffi-1.14.6                |   py36h2bbff1b_0         221 KB
+    chardet-4.0.0              |py36haa95532_1003         241 KB
+    coverage-5.5               |   py36h2bbff1b_2         273 KB
+    cryptography-3.4.7         |   py36h71e12ea_0         641 KB
+    cython-0.29.24             |   py36hd77b12b_0         1.7 MB
+    gast-0.2.2                 |           py36_0         155 KB
+    grpcio-1.36.1              |   py36hc60d5dd_1         1.7 MB
+    h5py-2.10.0                |   py36h5e291fa_0         807 KB
+    idna_ssl-1.1.0             |   py36haa95532_0           9 KB
+    importlib-metadata-4.8.1   |   py36haa95532_0          39 KB
+    markdown-3.3.4             |   py36haa95532_0         146 KB
+    multidict-5.1.0            |   py36h2bbff1b_2          85 KB
+    protobuf-3.17.2            |   py36hd77b12b_0         253 KB
+    pyjwt-2.1.0                |   py36haa95532_0          32 KB
+    pyreadline-2.1             |           py36_1         143 KB
+    pysocks-1.7.1              |   py36haa95532_0          31 KB
+    tensorflow-2.1.0           |eigen_py36hdbbabfe_0           4 KB
+    tensorflow-base-2.1.0      |eigen_py36h49b2757_0        35.4 MB
+    termcolor-1.1.0            |   py36haa95532_1           9 KB
+    werkzeug-0.16.1            |             py_0         258 KB
+    win_inet_pton-1.1.0        |   py36haa95532_0          35 KB
+    wrapt-1.12.1               |   py36he774522_1          49 KB
+    yarl-1.6.3                 |   py36h2bbff1b_0         128 KB
+    ------------------------------------------------------------
+                                           Total:        43.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _tflow_select      pkgs/main/win-64::_tflow_select-2.2.0-eigen
+  absl-py            pkgs/main/win-64::absl-py-0.13.0-py36haa95532_0
+  aiohttp            pkgs/main/win-64::aiohttp-3.7.4.post0-py36h2bbff1b_2
+  astor              pkgs/main/win-64::astor-0.8.1-py36haa95532_0
+  async-timeout      pkgs/main/win-64::async-timeout-3.0.1-py36haa95532_0
+  attrs              pkgs/main/noarch::attrs-21.2.0-pyhd3eb1b0_0
+  blinker            pkgs/main/win-64::blinker-1.4-py36haa95532_0
+  brotlipy           pkgs/main/win-64::brotlipy-0.7.0-py36h2bbff1b_1003
+  ca-certificates    pkgs/main/win-64::ca-certificates-2021.9.30-haa95532_1
+  cachetools         pkgs/main/noarch::cachetools-4.2.2-pyhd3eb1b0_0
+  cffi               pkgs/main/win-64::cffi-1.14.6-py36h2bbff1b_0
+  chardet            pkgs/main/win-64::chardet-4.0.0-py36haa95532_1003
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  click              pkgs/main/noarch::click-8.0.1-pyhd3eb1b0_0
+  coverage           pkgs/main/win-64::coverage-5.5-py36h2bbff1b_2
+  cryptography       pkgs/main/win-64::cryptography-3.4.7-py36h71e12ea_0
+  cython             pkgs/main/win-64::cython-0.29.24-py36hd77b12b_0
+  gast               pkgs/main/win-64::gast-0.2.2-py36_0
+  google-auth        pkgs/main/noarch::google-auth-1.33.0-pyhd3eb1b0_0
+  google-auth-oauth~ pkgs/main/noarch::google-auth-oauthlib-0.4.4-pyhd3eb1b0_0
+  google-pasta       pkgs/main/noarch::google-pasta-0.2.0-pyhd3eb1b0_0
+  grpcio             pkgs/main/win-64::grpcio-1.36.1-py36hc60d5dd_1
+  h5py               pkgs/main/win-64::h5py-2.10.0-py36h5e291fa_0
+  hdf5               pkgs/main/win-64::hdf5-1.10.4-h7ebc959_0
+  idna               pkgs/main/noarch::idna-3.2-pyhd3eb1b0_0
+  idna_ssl           pkgs/main/win-64::idna_ssl-1.1.0-py36haa95532_0
+  importlib-metadata pkgs/main/win-64::importlib-metadata-4.8.1-py36haa95532_0
+  keras-applications pkgs/main/noarch::keras-applications-1.0.8-py_1
+  keras-preprocessi~ pkgs/main/noarch::keras-preprocessing-1.1.2-pyhd3eb1b0_0
+  libprotobuf        pkgs/main/win-64::libprotobuf-3.17.2-h23ce68f_1
+  markdown           pkgs/main/win-64::markdown-3.3.4-py36haa95532_0
+  multidict          pkgs/main/win-64::multidict-5.1.0-py36h2bbff1b_2
+  oauthlib           pkgs/main/noarch::oauthlib-3.1.1-pyhd3eb1b0_0
+  openssl            pkgs/main/win-64::openssl-1.1.1l-h2bbff1b_0
+  opt_einsum         pkgs/main/noarch::opt_einsum-3.3.0-pyhd3eb1b0_1
+  protobuf           pkgs/main/win-64::protobuf-3.17.2-py36hd77b12b_0
+  pyasn1             pkgs/main/noarch::pyasn1-0.4.8-pyhd3eb1b0_0
+  pyasn1-modules     pkgs/main/noarch::pyasn1-modules-0.2.8-py_0
+  pycparser          pkgs/main/noarch::pycparser-2.20-py_2
+  pyjwt              pkgs/main/win-64::pyjwt-2.1.0-py36haa95532_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-20.0.1-pyhd3eb1b0_1
+  pyreadline         pkgs/main/win-64::pyreadline-2.1-py36_1
+  pysocks            pkgs/main/win-64::pysocks-1.7.1-py36haa95532_0
+  requests           pkgs/main/noarch::requests-2.26.0-pyhd3eb1b0_0
+  requests-oauthlib  pkgs/main/noarch::requests-oauthlib-1.3.0-py_0
+  rsa                pkgs/main/noarch::rsa-4.7.2-pyhd3eb1b0_1
+  tensorboard        pkgs/main/noarch::tensorboard-2.4.0-pyhc547734_0
+  tensorboard-plugi~ pkgs/main/noarch::tensorboard-plugin-wit-1.6.0-py_0
+  tensorflow         pkgs/main/win-64::tensorflow-2.1.0-eigen_py36hdbbabfe_0
+  tensorflow-base    pkgs/main/win-64::tensorflow-base-2.1.0-eigen_py36h49b2757_0
+  tensorflow-estima~ pkgs/main/noarch::tensorflow-estimator-2.6.0-pyh7b7c402_0
+  termcolor          pkgs/main/win-64::termcolor-1.1.0-py36haa95532_1
+  typing-extensions  pkgs/main/noarch::typing-extensions-3.10.0.2-hd3eb1b0_0
+  typing_extensions  pkgs/main/noarch::typing_extensions-3.10.0.2-pyh06a4308_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.7-pyhd3eb1b0_0
+  werkzeug           pkgs/main/noarch::werkzeug-0.16.1-py_0
+  win_inet_pton      pkgs/main/win-64::win_inet_pton-1.1.0-py36haa95532_0
+  wrapt              pkgs/main/win-64::wrapt-1.12.1-py36he774522_1
+  yarl               pkgs/main/win-64::yarl-1.6.3-py36h2bbff1b_0
+  zipp               pkgs/main/noarch::zipp-3.6.0-pyhd3eb1b0_0
+  zlib               pkgs/main/win-64::zlib-1.2.11-h62dcd97_4
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cryptography-3.4.7   | 641 KB    | ########################################################################################################################################################################################## | 100%
+pyjwt-2.1.0          | 32 KB     | ########################################################################################################################################################################################## | 100%
+h5py-2.10.0          | 807 KB    | ########################################################################################################################################################################################## | 100%
+yarl-1.6.3           | 128 KB    | ########################################################################################################################################################################################## | 100%
+tensorflow-base-2.1. | 35.4 MB   | ########################################################################################################################################################################################## | 100%
+blinker-1.4          | 23 KB     | ########################################################################################################################################################################################## | 100%
+protobuf-3.17.2      | 253 KB    | ########################################################################################################################################################################################## | 100%
+brotlipy-0.7.0       | 337 KB    | ########################################################################################################################################################################################## | 100%
+cffi-1.14.6          | 221 KB    | ########################################################################################################################################################################################## | 100%
+pyreadline-2.1       | 143 KB    | ########################################################################################################################################################################################## | 100%
+astor-0.8.1          | 47 KB     | ########################################################################################################################################################################################## | 100%
+gast-0.2.2           | 155 KB    | ########################################################################################################################################################################################## | 100%
+markdown-3.3.4       | 146 KB    | ########################################################################################################################################################################################## | 100%
+pysocks-1.7.1        | 31 KB     | ########################################################################################################################################################################################## | 100%
+aiohttp-3.7.4.post0  | 516 KB    | ########################################################################################################################################################################################## | 100%
+coverage-5.5         | 273 KB    | ########################################################################################################################################################################################## | 100%
+grpcio-1.36.1        | 1.7 MB    | ########################################################################################################################################################################################## | 100%
+chardet-4.0.0        | 241 KB    | ########################################################################################################################################################################################## | 100%
+wrapt-1.12.1         | 49 KB     | ########################################################################################################################################################################################## | 100%
+werkzeug-0.16.1      | 258 KB    | ########################################################################################################################################################################################## | 100%
+idna_ssl-1.1.0       | 9 KB      | ########################################################################################################################################################################################## | 100%
+termcolor-1.1.0      | 9 KB      | ########################################################################################################################################################################################## | 100%
+cython-0.29.24       | 1.7 MB    | ########################################################################################################################################################################################## | 100%
+tensorflow-2.1.0     | 4 KB      | ########################################################################################################################################################################################## | 100%
+_tflow_select-2.2.0  | 3 KB      | ########################################################################################################################################################################################## | 100%
+importlib-metadata-4 | 39 KB     | ########################################################################################################################################################################################## | 100%
+async-timeout-3.0.1  | 14 KB     | ########################################################################################################################################################################################## | 100%
+multidict-5.1.0      | 85 KB     | ########################################################################################################################################################################################## | 100%
+absl-py-0.13.0       | 176 KB    | ########################################################################################################################################################################################## | 100%
+win_inet_pton-1.1.0  | 35 KB     | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+
+
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install keras
+
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - keras
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    keras-base-2.3.1           |           py36_0         486 KB
+    pyyaml-5.4.1               |   py36h2bbff1b_1         147 KB
+    ------------------------------------------------------------
+                                           Total:         633 KB
+
+The following NEW packages will be INSTALLED:
+
+  keras              pkgs/main/win-64::keras-2.3.1-0
+  keras-base         pkgs/main/win-64::keras-base-2.3.1-py36_0
+  pyyaml             pkgs/main/win-64::pyyaml-5.4.1-py36h2bbff1b_1
+  yaml               pkgs/main/win-64::yaml-0.2.5-he774522_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+keras-base-2.3.1     | 486 KB    | ########################################################################################################################################################################################## | 100%
+pyyaml-5.4.1         | 147 KB    | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install spyder
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - spyder
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    alabaster-0.7.12           |           py36_0          18 KB
+    argh-0.26.2                |           py36_0          36 KB
+    arrow-0.13.1               |           py36_0          83 KB
+    astroid-2.6.6              |   py36haa95532_0         308 KB
+    async_generator-1.10       |   py36h28b3542_0          40 KB
+    bcrypt-3.2.0               |   py36he774522_0          44 KB
+    docutils-0.17.1            |   py36haa95532_1         684 KB
+    entrypoints-0.3            |           py36_0          12 KB
+    future-0.18.2              |           py36_1         647 KB
+    inflection-0.5.1           |   py36haa95532_0          12 KB
+    ipykernel-5.3.4            |   py36h5ca1d4c_0         184 KB
+    ipython-7.16.1             |   py36h5ca1d4c_0        1017 KB
+    jedi-0.17.2                |   py36haa95532_1         919 KB
+    jupyter_core-4.8.1         |   py36haa95532_0          90 KB
+    keyring-23.1.0             |   py36haa95532_0          77 KB
+    lazy-object-proxy-1.6.0    |   py36h2bbff1b_0          30 KB
+    markupsafe-1.1.1           |   py36he774522_0          31 KB
+    mccabe-0.6.1               |           py36_1          14 KB
+    mistune-0.8.4              |   py36he774522_0          55 KB
+    mypy_extensions-0.4.3      |           py36_0          10 KB
+    nbconvert-6.0.7            |           py36_0         497 KB
+    pandocfilters-1.4.3        |   py36haa95532_1          14 KB
+    pluggy-1.0.0               |   py36haa95532_0          29 KB
+    psutil-5.8.0               |   py36h2bbff1b_1         345 KB
+    pylint-2.9.6               |   py36haa95532_1         506 KB
+    pynacl-1.4.0               |   py36h62dcd97_1         1.2 MB
+    pyqt-5.9.2                 |   py36h6538335_2         3.3 MB
+    pyrsistent-0.17.3          |   py36he774522_0          92 KB
+    pywin32-228                |   py36hbaba5e8_1         5.6 MB
+    pywin32-ctypes-0.2.0       |        py36_1000          41 KB
+    pyzmq-22.2.1               |   py36hd77b12b_1         610 KB
+    regex-2021.8.3             |   py36h2bbff1b_0         301 KB
+    rtree-0.9.7                |   py36h2eaa2aa_1          49 KB
+    sip-4.19.8                 |   py36h6538335_0         262 KB
+    spyder-5.0.5               |   py36haa95532_2         5.5 MB
+    spyder-kernels-2.0.5       |   py36haa95532_0         101 KB
+    tornado-6.1                |   py36h2bbff1b_0         605 KB
+    traitlets-4.3.3            |   py36haa95532_0         140 KB
+    typed-ast-1.4.3            |   py36h2bbff1b_1         134 KB
+    ujson-4.0.2                |   py36hd77b12b_0          46 KB
+    watchdog-2.1.3             |   py36haa95532_0         108 KB
+    webencodings-0.5.1         |           py36_1          19 KB
+    ------------------------------------------------------------
+                                           Total:        23.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  alabaster          pkgs/main/win-64::alabaster-0.7.12-py36_0
+  appdirs            pkgs/main/noarch::appdirs-1.4.4-pyhd3eb1b0_0
+  argh               pkgs/main/win-64::argh-0.26.2-py36_0
+  arrow              pkgs/main/win-64::arrow-0.13.1-py36_0
+  astroid            pkgs/main/win-64::astroid-2.6.6-py36haa95532_0
+  async_generator    pkgs/main/win-64::async_generator-1.10-py36h28b3542_0
+  atomicwrites       pkgs/main/noarch::atomicwrites-1.4.0-py_0
+  autopep8           pkgs/main/noarch::autopep8-1.5.6-pyhd3eb1b0_0
+  babel              pkgs/main/noarch::babel-2.9.1-pyhd3eb1b0_0
+  backcall           pkgs/main/noarch::backcall-0.2.0-pyhd3eb1b0_0
+  bcrypt             pkgs/main/win-64::bcrypt-3.2.0-py36he774522_0
+  binaryornot        pkgs/main/noarch::binaryornot-0.4.4-pyhd3eb1b0_1
+  black              pkgs/main/noarch::black-19.10b0-py_0
+  bleach             pkgs/main/noarch::bleach-4.0.0-pyhd3eb1b0_0
+  cloudpickle        pkgs/main/noarch::cloudpickle-2.0.0-pyhd3eb1b0_0
+  colorama           pkgs/main/noarch::colorama-0.4.4-pyhd3eb1b0_0
+  cookiecutter       pkgs/main/noarch::cookiecutter-1.7.2-pyhd3eb1b0_0
+  decorator          pkgs/main/noarch::decorator-5.1.0-pyhd3eb1b0_0
+  defusedxml         pkgs/main/noarch::defusedxml-0.7.1-pyhd3eb1b0_0
+  diff-match-patch   pkgs/main/noarch::diff-match-patch-20200713-pyhd3eb1b0_0
+  docutils           pkgs/main/win-64::docutils-0.17.1-py36haa95532_1
+  entrypoints        pkgs/main/win-64::entrypoints-0.3-py36_0
+  flake8             pkgs/main/noarch::flake8-3.9.0-pyhd3eb1b0_0
+  future             pkgs/main/win-64::future-0.18.2-py36_1
+  icu                pkgs/main/win-64::icu-58.2-ha925a31_3
+  imagesize          pkgs/main/noarch::imagesize-1.2.0-pyhd3eb1b0_0
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.8.1-hd3eb1b0_0
+  inflection         pkgs/main/win-64::inflection-0.5.1-py36haa95532_0
+  intervaltree       pkgs/main/noarch::intervaltree-3.1.0-pyhd3eb1b0_0
+  ipykernel          pkgs/main/win-64::ipykernel-5.3.4-py36h5ca1d4c_0
+  ipython            pkgs/main/win-64::ipython-7.16.1-py36h5ca1d4c_0
+  ipython_genutils   pkgs/main/noarch::ipython_genutils-0.2.0-pyhd3eb1b0_1
+  isort              pkgs/main/noarch::isort-5.9.3-pyhd3eb1b0_0
+  jedi               pkgs/main/win-64::jedi-0.17.2-py36haa95532_1
+  jinja2             pkgs/main/noarch::jinja2-2.11.3-pyhd3eb1b0_0
+  jinja2-time        pkgs/main/noarch::jinja2-time-0.2.0-pyhd3eb1b0_2
+  jpeg               pkgs/main/win-64::jpeg-9d-h2bbff1b_0
+  jsonschema         pkgs/main/noarch::jsonschema-3.2.0-pyhd3eb1b0_2
+  jupyter_client     pkgs/main/noarch::jupyter_client-7.0.1-pyhd3eb1b0_0
+  jupyter_core       pkgs/main/win-64::jupyter_core-4.8.1-py36haa95532_0
+  jupyterlab_pygmen~ pkgs/main/noarch::jupyterlab_pygments-0.1.2-py_0
+  keyring            pkgs/main/win-64::keyring-23.1.0-py36haa95532_0
+  lazy-object-proxy  pkgs/main/win-64::lazy-object-proxy-1.6.0-py36h2bbff1b_0
+  libpng             pkgs/main/win-64::libpng-1.6.37-h2a8f88b_0
+  libspatialindex    pkgs/main/win-64::libspatialindex-1.9.3-h6c2663c_0
+  markupsafe         pkgs/main/win-64::markupsafe-1.1.1-py36he774522_0
+  mccabe             pkgs/main/win-64::mccabe-0.6.1-py36_1
+  mistune            pkgs/main/win-64::mistune-0.8.4-py36he774522_0
+  mypy_extensions    pkgs/main/win-64::mypy_extensions-0.4.3-py36_0
+  nbclient           pkgs/main/noarch::nbclient-0.5.3-pyhd3eb1b0_0
+  nbconvert          pkgs/main/win-64::nbconvert-6.0.7-py36_0
+  nbformat           pkgs/main/noarch::nbformat-5.1.3-pyhd3eb1b0_0
+  nest-asyncio       pkgs/main/noarch::nest-asyncio-1.5.1-pyhd3eb1b0_0
+  numpydoc           pkgs/main/noarch::numpydoc-1.1.0-pyhd3eb1b0_1
+  packaging          pkgs/main/noarch::packaging-21.0-pyhd3eb1b0_0
+  pandoc             pkgs/main/win-64::pandoc-2.12-haa95532_0
+  pandocfilters      pkgs/main/win-64::pandocfilters-1.4.3-py36haa95532_1
+  paramiko           pkgs/main/noarch::paramiko-2.7.2-py_0
+  parso              pkgs/main/noarch::parso-0.7.0-py_0
+  pathspec           pkgs/main/noarch::pathspec-0.7.0-py_0
+  pexpect            pkgs/main/noarch::pexpect-4.8.0-pyhd3eb1b0_3
+  pickleshare        pkgs/main/noarch::pickleshare-0.7.5-pyhd3eb1b0_1003
+  pluggy             pkgs/main/win-64::pluggy-1.0.0-py36haa95532_0
+  poyo               pkgs/main/noarch::poyo-0.5.0-pyhd3eb1b0_0
+  prompt-toolkit     pkgs/main/noarch::prompt-toolkit-3.0.20-pyhd3eb1b0_0
+  psutil             pkgs/main/win-64::psutil-5.8.0-py36h2bbff1b_1
+  ptyprocess         pkgs/main/noarch::ptyprocess-0.7.0-pyhd3eb1b0_2
+  pycodestyle        pkgs/main/noarch::pycodestyle-2.6.0-pyhd3eb1b0_0
+  pydocstyle         pkgs/main/noarch::pydocstyle-6.1.1-pyhd3eb1b0_0
+  pyflakes           pkgs/main/noarch::pyflakes-2.2.0-pyhd3eb1b0_0
+  pygments           pkgs/main/noarch::pygments-2.10.0-pyhd3eb1b0_0
+  pylint             pkgs/main/win-64::pylint-2.9.6-py36haa95532_1
+  pyls-black         pkgs/main/noarch::pyls-black-0.4.6-hd3eb1b0_0
+  pyls-spyder        pkgs/main/noarch::pyls-spyder-0.3.2-pyhd3eb1b0_0
+  pynacl             pkgs/main/win-64::pynacl-1.4.0-py36h62dcd97_1
+  pyparsing          pkgs/main/noarch::pyparsing-2.4.7-pyhd3eb1b0_0
+  pyqt               pkgs/main/win-64::pyqt-5.9.2-py36h6538335_2
+  pyrsistent         pkgs/main/win-64::pyrsistent-0.17.3-py36he774522_0
+  python-jsonrpc-se~ pkgs/main/noarch::python-jsonrpc-server-0.4.0-py_0
+  python-language-s~ pkgs/main/noarch::python-language-server-0.36.2-pyhd3eb1b0_0
+  python-slugify     pkgs/main/noarch::python-slugify-5.0.2-pyhd3eb1b0_0
+  pywin32            pkgs/main/win-64::pywin32-228-py36hbaba5e8_1
+  pywin32-ctypes     pkgs/main/win-64::pywin32-ctypes-0.2.0-py36_1000
+  pyzmq              pkgs/main/win-64::pyzmq-22.2.1-py36hd77b12b_1
+  qdarkstyle         pkgs/main/noarch::qdarkstyle-3.0.2-pyhd3eb1b0_0
+  qstylizer          pkgs/main/noarch::qstylizer-0.1.10-pyhd3eb1b0_0
+  qt                 pkgs/main/win-64::qt-5.9.7-vc14h73c81de_0
+  qtawesome          pkgs/main/noarch::qtawesome-1.0.2-pyhd3eb1b0_0
+  qtconsole          pkgs/main/noarch::qtconsole-5.1.1-pyhd3eb1b0_0
+  qtpy               pkgs/main/noarch::qtpy-1.10.0-pyhd3eb1b0_0
+  regex              pkgs/main/win-64::regex-2021.8.3-py36h2bbff1b_0
+  rope               pkgs/main/noarch::rope-0.19.0-pyhd3eb1b0_0
+  rtree              pkgs/main/win-64::rtree-0.9.7-py36h2eaa2aa_1
+  sip                pkgs/main/win-64::sip-4.19.8-py36h6538335_0
+  snowballstemmer    pkgs/main/noarch::snowballstemmer-2.1.0-pyhd3eb1b0_0
+  sortedcontainers   pkgs/main/noarch::sortedcontainers-2.4.0-pyhd3eb1b0_0
+  sphinx             pkgs/main/noarch::sphinx-4.2.0-pyhd3eb1b0_0
+  sphinxcontrib-app~ pkgs/main/noarch::sphinxcontrib-applehelp-1.0.2-pyhd3eb1b0_0
+  sphinxcontrib-dev~ pkgs/main/noarch::sphinxcontrib-devhelp-1.0.2-pyhd3eb1b0_0
+  sphinxcontrib-htm~ pkgs/main/noarch::sphinxcontrib-htmlhelp-2.0.0-pyhd3eb1b0_0
+  sphinxcontrib-jsm~ pkgs/main/noarch::sphinxcontrib-jsmath-1.0.1-pyhd3eb1b0_0
+  sphinxcontrib-qth~ pkgs/main/noarch::sphinxcontrib-qthelp-1.0.3-pyhd3eb1b0_0
+  sphinxcontrib-ser~ pkgs/main/noarch::sphinxcontrib-serializinghtml-1.1.5-pyhd3eb1b0_0
+  spyder             pkgs/main/win-64::spyder-5.0.5-py36haa95532_2
+  spyder-kernels     pkgs/main/win-64::spyder-kernels-2.0.5-py36haa95532_0
+  testpath           pkgs/main/noarch::testpath-0.5.0-pyhd3eb1b0_0
+  text-unidecode     pkgs/main/noarch::text-unidecode-1.3-pyhd3eb1b0_0
+  textdistance       pkgs/main/noarch::textdistance-4.2.1-pyhd3eb1b0_0
+  three-merge        pkgs/main/noarch::three-merge-0.1.1-pyhd3eb1b0_0
+  tinycss            pkgs/main/noarch::tinycss-0.4-pyhd3eb1b0_1002
+  toml               pkgs/main/noarch::toml-0.10.2-pyhd3eb1b0_0
+  tornado            pkgs/main/win-64::tornado-6.1-py36h2bbff1b_0
+  traitlets          pkgs/main/win-64::traitlets-4.3.3-py36haa95532_0
+  typed-ast          pkgs/main/win-64::typed-ast-1.4.3-py36h2bbff1b_1
+  ujson              pkgs/main/win-64::ujson-4.0.2-py36hd77b12b_0
+  unidecode          pkgs/main/noarch::unidecode-1.2.0-pyhd3eb1b0_0
+  watchdog           pkgs/main/win-64::watchdog-2.1.3-py36haa95532_0
+  wcwidth            pkgs/main/noarch::wcwidth-0.2.5-pyhd3eb1b0_0
+  webencodings       pkgs/main/win-64::webencodings-0.5.1-py36_1
+  whichcraft         pkgs/main/noarch::whichcraft-0.6.1-pyhd3eb1b0_0
+  yapf               pkgs/main/noarch::yapf-0.31.0-pyhd3eb1b0_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+alabaster-0.7.12     | 18 KB     | ########################################################################################################################################################################################## | 100%
+pywin32-ctypes-0.2.0 | 41 KB     | ########################################################################################################################################################################################## | 100%
+inflection-0.5.1     | 12 KB     | ########################################################################################################################################################################################## | 100%
+pywin32-228          | 5.6 MB    | ########################################################################################################################################################################################## | 100%
+pyrsistent-0.17.3    | 92 KB     | ########################################################################################################################################################################################## | 100%
+rtree-0.9.7          | 49 KB     | ########################################################################################################################################################################################## | 100%
+sip-4.19.8           | 262 KB    | ########################################################################################################################################################################################## | 100%
+spyder-kernels-2.0.5 | 101 KB    | ########################################################################################################################################################################################## | 100%
+docutils-0.17.1      | 684 KB    | ########################################################################################################################################################################################## | 100%
+mccabe-0.6.1         | 14 KB     | ########################################################################################################################################################################################## | 100%
+spyder-5.0.5         | 5.5 MB    | ########################################################################################################################################################################################## | 100%
+mypy_extensions-0.4. | 10 KB     | ########################################################################################################################################################################################## | 100%
+watchdog-2.1.3       | 108 KB    | ########################################################################################################################################################################################## | 100%
+pyzmq-22.2.1         | 610 KB    | ########################################################################################################################################################################################## | 100%
+astroid-2.6.6        | 308 KB    | ########################################################################################################################################################################################## | 100%
+typed-ast-1.4.3      | 134 KB    | ########################################################################################################################################################################################## | 100%
+pynacl-1.4.0         | 1.2 MB    | ########################################################################################################################################################################################## | 100%
+jedi-0.17.2          | 919 KB    | ########################################################################################################################################################################################## | 100%
+traitlets-4.3.3      | 140 KB    | ########################################################################################################################################################################################## | 100%
+keyring-23.1.0       | 77 KB     | ########################################################################################################################################################################################## | 100%
+mistune-0.8.4        | 55 KB     | ########################################################################################################################################################################################## | 100%
+pluggy-1.0.0         | 29 KB     | ########################################################################################################################################################################################## | 100%
+nbconvert-6.0.7      | 497 KB    | ########################################################################################################################################################################################## | 100%
+regex-2021.8.3       | 301 KB    | ########################################################################################################################################################################################## | 100%
+ipython-7.16.1       | 1017 KB   | ########################################################################################################################################################################################## | 100%
+entrypoints-0.3      | 12 KB     | ########################################################################################################################################################################################## | 100%
+markupsafe-1.1.1     | 31 KB     | ########################################################################################################################################################################################## | 100%
+bcrypt-3.2.0         | 44 KB     | ########################################################################################################################################################################################## | 100%
+async_generator-1.10 | 40 KB     | ########################################################################################################################################################################################## | 100%
+pyqt-5.9.2           | 3.3 MB    | ########################################################################################################################################################################################## | 100%
+ipykernel-5.3.4      | 184 KB    | ########################################################################################################################################################################################## | 100%
+argh-0.26.2          | 36 KB     | ########################################################################################################################################################################################## | 100%
+jupyter_core-4.8.1   | 90 KB     | ########################################################################################################################################################################################## | 100%
+pandocfilters-1.4.3  | 14 KB     | ########################################################################################################################################################################################## | 100%
+psutil-5.8.0         | 345 KB    | ########################################################################################################################################################################################## | 100%
+pylint-2.9.6         | 506 KB    | ########################################################################################################################################################################################## | 100%
+tornado-6.1          | 605 KB    | ########################################################################################################################################################################################## | 100%
+future-0.18.2        | 647 KB    | ########################################################################################################################################################################################## | 100%
+ujson-4.0.2          | 46 KB     | ########################################################################################################################################################################################## | 100%
+webencodings-0.5.1   | 19 KB     | ########################################################################################################################################################################################## | 100%
+lazy-object-proxy-1. | 30 KB     | ########################################################################################################################################################################################## | 100%
+arrow-0.13.1         | 83 KB     | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: \ DEBUG menuinst_win32:__init__(198): Menu: name: 'Anaconda${PY_VER} ${PLATFORM}', prefix: 'C:\Users\Emelie Chandni\anaconda3\envs\py36', env_name: 'py36', mode: 'user', used_mode: 'user'
+DEBUG menuinst_win32:create(323): Shortcut cmd is "C:\Users\Emelie Chandni\anaconda3\pythonw.exe", args are ['"C:\\Users\\Emelie Chandni\\anaconda3\\cwp.py"', '"C:\\Users\\Emelie Chandni\\anaconda3\\envs\\py36"', '"C:\\Users\\Emelie Chandni\\anaconda3\\envs\\py36\\pythonw.exe"', '"C:\\Users\\Emelie Chandni\\anaconda3\\envs\\py36\\Scripts\\spyder-script.py"']
+DEBUG menuinst_win32:create(323): Shortcut cmd is "C:\Users\Emelie Chandni\anaconda3\python.exe", args are ['"C:\\Users\\Emelie Chandni\\anaconda3\\cwp.py"', '"C:\\Users\\Emelie Chandni\\anaconda3\\envs\\py36"', '"C:\\Users\\Emelie Chandni\\anaconda3\\envs\\py36\\python.exe"', '"C:\\Users\\Emelie Chandni\\anaconda3\\envs\\py36\\Scripts\\spyder-script.py"', '--reset']
+done
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install matplotlib
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - matplotlib
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cycler-0.10.0              |   py36haa95532_0          16 KB
+    kiwisolver-1.3.1           |   py36hd77b12b_0          52 KB
+    lz4-c-1.9.3                |       h2bbff1b_1         132 KB
+    matplotlib-3.3.4           |   py36haa95532_0          27 KB
+    matplotlib-base-3.3.4      |   py36h49ac443_0         5.1 MB
+    olefile-0.46               |           py36_0          49 KB
+    pillow-8.2.0               |   py36h4fa10fc_0         667 KB
+    tk-8.6.11                  |       h2bbff1b_0         3.3 MB
+    zstd-1.4.9                 |       h19a0ad4_0         478 KB
+    ------------------------------------------------------------
+                                           Total:         9.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  cycler             pkgs/main/win-64::cycler-0.10.0-py36haa95532_0
+  freetype           pkgs/main/win-64::freetype-2.10.4-hd328e21_0
+  kiwisolver         pkgs/main/win-64::kiwisolver-1.3.1-py36hd77b12b_0
+  libtiff            pkgs/main/win-64::libtiff-4.2.0-hd0e1b90_0
+  lz4-c              pkgs/main/win-64::lz4-c-1.9.3-h2bbff1b_1
+  matplotlib         pkgs/main/win-64::matplotlib-3.3.4-py36haa95532_0
+  matplotlib-base    pkgs/main/win-64::matplotlib-base-3.3.4-py36h49ac443_0
+  olefile            pkgs/main/win-64::olefile-0.46-py36_0
+  pillow             pkgs/main/win-64::pillow-8.2.0-py36h4fa10fc_0
+  tk                 pkgs/main/win-64::tk-8.6.11-h2bbff1b_0
+  xz                 pkgs/main/win-64::xz-5.2.5-h62dcd97_0
+  zstd               pkgs/main/win-64::zstd-1.4.9-h19a0ad4_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+kiwisolver-1.3.1     | 52 KB     | ########################################################################################################################################################################################## | 100%
+pillow-8.2.0         | 667 KB    | ########################################################################################################################################################################################## | 100%
+olefile-0.46         | 49 KB     | ########################################################################################################################################################################################## | 100%
+lz4-c-1.9.3          | 132 KB    | ########################################################################################################################################################################################## | 100%
+zstd-1.4.9           | 478 KB    | ########################################################################################################################################################################################## | 100%
+matplotlib-3.3.4     | 27 KB     | ########################################################################################################################################################################################## | 100%
+cycler-0.10.0        | 16 KB     | ########################################################################################################################################################################################## | 100%
+tk-8.6.11            | 3.3 MB    | ########################################################################################################################################################################################## | 100%
+matplotlib-base-3.3. | 5.1 MB    | ########################################################################################################################################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(py36) PS C:\Users\Emelie Chandni> conda install sklearn
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - sklearn
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install scikit-learn
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - scikit-learn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    scikit-learn-0.24.2        |   py36hf11a4ad_1         4.8 MB
+    ------------------------------------------------------------
+                                           Total:         4.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  joblib             pkgs/main/noarch::joblib-1.0.1-pyhd3eb1b0_0
+  scikit-learn       pkgs/main/win-64::scikit-learn-0.24.2-py36hf11a4ad_1
+  threadpoolctl      pkgs/main/noarch::threadpoolctl-2.2.0-pyh0d69192_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+scikit-learn-0.24.2  | 4.8 MB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: |
+
+    Windows 64-bit packages of scikit-learn can be accelerated using scikit-learn-intelex.
+    More details are available here: https://intel.github.io/scikit-learn-intelex
+
+    For example:
+
+        $ conda install scikit-learn-intelex
+        $ python -m sklearnex my_application.py
+
+
+done
+
+
+(py36) PS C:\Users\Emelie Chandni> conda install tensorflow-estimator=2.1.0
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Emelie Chandni\anaconda3\envs\py36
+
+  added / updated specs:
+    - tensorflow-estimator=2.1.0
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    tensorflow-estimator-2.1.0 |     pyhd54b08b_0         251 KB
+    ------------------------------------------------------------
+                                           Total:         251 KB
+
+The following packages will be DOWNGRADED:
+
+  tensorflow-estima~                     2.6.0-pyh7b7c402_0 --> 2.1.0-pyhd54b08b_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+tensorflow-estimator | 251 KB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(py36) PS C:\Users\Emelie Chandni>
